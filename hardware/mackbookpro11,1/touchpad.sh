@@ -22,3 +22,4 @@ synclient VertScrollDelta=-111
 synclient HorizScrollDelta=-111
 synclient MinSpeed=3
 synclient MaxSpeed=3.75
+synclient AccelFactor=0.0194447
