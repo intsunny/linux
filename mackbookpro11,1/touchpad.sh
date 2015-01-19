@@ -5,7 +5,7 @@
 PATH=/bin:/usr/bin
 
 synclient TapButton1=1
-synclient TapButton2=2
+synclient TapButton2=0
 synclient TapButton3=3
 synclient VertEdgeScroll=1
 synclient VertTwoFingerScroll=1
@@ -20,3 +20,5 @@ synclient FingerLow=35
 synclient FingerHigh=40
 synclient VertScrollDelta=-111
 synclient HorizScrollDelta=-111
+synclient MinSpeed=3
+synclient MaxSpeed=3.75
