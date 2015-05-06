@@ -1,0 +1,14 @@
+! This makes the left command key a control key
+!
+! Why?
+! Because it is easy to teach yourself new muscle
+! memory for both OSX and Linux based on this
+! key change
+
+! Erase existing bindings
+clear Control
+clear Mod4
+! Map key 133 (left cmd) to Control_L (i.e. 'ctrl)
+keycode 133 = Control_L
+! And update modifier settings
+add control = Control_L
